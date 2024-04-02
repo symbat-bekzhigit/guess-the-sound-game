@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/blue blackground.jpg');
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  max-height: 50%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 5px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+  width: 1077px;
+}
+
+.overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-60%, 50%);
+}
+
+.overlay-index {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-90%, 50%);
+}
+
+
+.container img {
+  align-items: center;
+  /* height: 100vh; */
+  /* height: 1024px; */
+}
+
+
+img {
+  width: 1077px;
+  height: 750px;
+}
+
+.next-icon {
+  width: 80px;
+  height: auto;
+  /* To maintain aspect ratio */
+}
+
+.start-icon {
+  width: 100px;
+  height: auto;
+  /* To maintain aspect ratio */
+}
