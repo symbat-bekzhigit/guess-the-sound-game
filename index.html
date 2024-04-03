@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Guess the sound</title>
   <style>
     audio::-webkit-media-controls {
         display: none;
@@ -20,10 +20,14 @@
         <img src="./images/start-button.png" class="start-icon">
       </a>
     </div>
+    <div class="overlay-text">
+      <p>Click anywhere to hear the game instructions.</p>
+    </div>
     <img src="images/main page.png" width="1077" height="750">
   </div>
-  <audio controls id="intro" autoplay>
-    <source src="audio/INTRO AND RULES.mp3">
+</div>
+  <audio id="intro" autoplay>
+  <source src="audio/INTRO AND RULES.mp3">
   </audio>
   <script src="script.js"></script>
 </body>
