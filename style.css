@@ -65,3 +65,15 @@ img {
   height: auto;
   /* To maintain aspect ratio */
 }
+
+p{
+  color: white;
+  font-size: 15px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  transform: translate(-80%, 50%);
+}
