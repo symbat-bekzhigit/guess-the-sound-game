@@ -44,37 +44,15 @@ var chipsPlaying = false;
 var chipsAltPlaying = false;
 
 
-// // Play introduction sound when the page loads
-// document.addEventListener('DOMContentLoaded', function() {
-//   var introAudio = document.getElementById('intro');
-//   introAudio.play();
-//   // var audio = document.querySelector('audio');
-//   // audio.removeAttribute('controls');
-//   // introAudio.removeAttribute('controls');
-// });
-
-
-// // Play introduction sound when the page loads
-// document.addEventListener('DOMContentLoaded', function() {
-//   var backgroundAudio = document.getElementById('background-music');
-//   backgroundAudio.play();
-//   // backgroundAudio.removeAttribute('controls');
-
-// });
+function playAudio(audioId) {
+  var audio = document.getElementById(audioId);
+  audio.play();
+}
 
 document.addEventListener('click', function() {
-  var introAudio = document.getElementById('intro');
-  introAudio.play();
-  
+  playAudio('intro');
+  playAudio('background-music');
 });
-
-
-document.addEventListener('click', function() {
-  var backgroundAudio = document.getElementById('background-music');
-  backgroundAudio.play();
-  
-});
-
 
 document.addEventListener('click', function(event) {
   // Check if the clicked element is noodles sound
