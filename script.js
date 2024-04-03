@@ -44,22 +44,35 @@ var chipsPlaying = false;
 var chipsAltPlaying = false;
 
 
-// Play introduction sound when the page loads
-document.addEventListener('DOMContentLoaded', function() {
+// // Play introduction sound when the page loads
+// document.addEventListener('DOMContentLoaded', function() {
+//   var introAudio = document.getElementById('intro');
+//   introAudio.play();
+//   // var audio = document.querySelector('audio');
+//   // audio.removeAttribute('controls');
+//   // introAudio.removeAttribute('controls');
+// });
+
+
+// // Play introduction sound when the page loads
+// document.addEventListener('DOMContentLoaded', function() {
+//   var backgroundAudio = document.getElementById('background-music');
+//   backgroundAudio.play();
+//   // backgroundAudio.removeAttribute('controls');
+
+// });
+
+document.addEventListener('click', function() {
   var introAudio = document.getElementById('intro');
   introAudio.play();
-  // var audio = document.querySelector('audio');
-  // audio.removeAttribute('controls');
-  introAudio.removeAttribute('controls');
+  
 });
 
 
-// Play introduction sound when the page loads
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('click', function() {
   var backgroundAudio = document.getElementById('background-music');
   backgroundAudio.play();
-  backgroundAudio.removeAttribute('controls');
-
+  
 });
 
 
